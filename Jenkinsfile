@@ -10,7 +10,7 @@ pipeline{
 
                 script{
                  
-                 git branch: 'main', url: 'https://github.com/shankyz/Sampletest.git'
+                 git branch: 'main', credentialsId: 'gitcred', url: 'https://github.com/shankyz/Sampletest.git'
 
                 }
             }
